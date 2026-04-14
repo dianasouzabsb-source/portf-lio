@@ -1,18 +1,18 @@
 const projetos = [
   {
-    nome: "Portfólio Pessoal",
-    descricao: "Site de portfólio feito com HTML, CSS e JavaScript.",
-    link: "#"
+    nome: "Lista de Repositórios (GitHub)",
+    descricao: "Repositório do meu portfólio desenvolvido com HTML, CSS e JavaScript.",
+    link: "https://github.com/dianasouzabsb-source/portf-lio"
   },
   {
-    nome: "Landing Page",
-    descricao: "Página moderna responsiva para apresentação.",
-    link: "#"
+    nome: "Portfólio Publicado",
+    descricao: "Versão online do meu portfólio publicada com GitHub Pages.",
+    link: "https://dianasouzabsb-source.github.io/portf-lio/"
   },
   {
-    nome: "Projeto React",
-    descricao: "Aplicação usando componentes e renderização dinâmica.",
-    link: "#"
+    nome: "Projeto React (Em breve)",
+    descricao: "Versão futura do portfólio migrada para React.",
+    link: "https://github.com/dianasouzabsb-source"
   }
 ];
 
@@ -31,7 +31,6 @@ projetos.forEach((projeto) => {
   lista.appendChild(div);
 });
 
-/* ANIMAÇÃO DOS CARDS E SEÇÕES */
 const elementosReveal = document.querySelectorAll(".projeto, .reveal");
 
 const observer = new IntersectionObserver((entries) => {
@@ -48,7 +47,6 @@ elementosReveal.forEach((elemento) => {
   observer.observe(elemento);
 });
 
-/* BOTÃO VOLTAR AO TOPO */
 const botaoTopo = document.getElementById("topo");
 
 window.addEventListener("scroll", () => {
@@ -66,7 +64,6 @@ botaoTopo.addEventListener("click", () => {
   });
 });
 
-/* HEADER MUDA AO ROLAR */
 const header = document.getElementById("header");
 
 window.addEventListener("scroll", () => {
