@@ -12,7 +12,7 @@ const projetos = [
   {
     nome: "Portfólio React",
     descricao: "Nova versão do meu portfólio desenvolvida com React e publicada na Vercel.",
-    link: "https://portfolio-react-4npk8pmox-diana-milanes-souzas-projects.vercel.app/"
+    link: "https://portfolio-react-fbcgimp1i-diana-milanes-souzas-projects.vercel.app/"
   }
 ];
 
