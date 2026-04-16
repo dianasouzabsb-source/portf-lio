@@ -1,8 +1,8 @@
 const projetos = [
   {
     nome: "Lista de Repositórios (GitHub)",
-    descricao: "Repositório do meu portfólio desenvolvido com HTML, CSS e JavaScript.",
-    link: "https://github.com/dianasouzabsb-source/portf-lio"
+    descricao: "Página do meu GitHub com todos os meus repositórios publicados.",
+    link: "https://github.com/dianasouzabsb-source"
   },
   {
     nome: "Portfólio Publicado",
@@ -10,9 +10,9 @@ const projetos = [
     link: "https://dianasouzabsb-source.github.io/portf-lio/"
   },
   {
-    nome: "Projeto React (Em breve)",
-    descricao: "Versão futura do portfólio migrada para React.",
-    link: "https://github.com/dianasouzabsb-source"
+    nome: "Portfólio React",
+    descricao: "Nova versão do meu portfólio desenvolvida com React e publicada na Vercel.",
+    link: "https://portfolio-react-4npk8pmox-diana-milanes-souzas-projects.vercel.app/"
   }
 ];
 
